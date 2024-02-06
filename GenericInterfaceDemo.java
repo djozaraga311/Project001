@@ -47,11 +47,11 @@ class IntegerPrintable implements Printable {
 public class GenericInterfaceDemo {
     public static void main(String[] args) {
         // Create a Printer for String
-        Printer<StringPrintable> stringPrinter = new Printer<>(new StringPrintable("Hello, Generics!"));
+        Printer<StringPrintable> stringPrinter = new Printer<>(new StringPrintable("Hello!!"));
         stringPrinter.printItem();
 
         // Create a Printer for Integer
-        Printer<IntegerPrintable> integerPrinter = new Printer<>(new IntegerPrintable(42));
+        Printer<IntegerPrintable> integerPrinter = new Printer<>(new IntegerPrintable(32));
         integerPrinter.printItem();
     }
 }
